@@ -41,7 +41,7 @@ function checkAnswer(currentLevel) {
 
       setTimeout(function () {
         $("body").removeClass("game-over");
-      }, 200);
+      }, 100);
 
       startOver();
     }
