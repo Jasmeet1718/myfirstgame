@@ -41,7 +41,7 @@ function checkAnswer(currentLevel) {
 
       setTimeout(function () {
         $("body").removeClass("game-over");
-      }, 100);
+      }, 150);
 
       startOver();
     }
@@ -64,7 +64,7 @@ function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
     $("#" + currentColor).removeClass("pressed");
-  }, 100);
+  }, 150);
 }
 
 function playSound(name) {
